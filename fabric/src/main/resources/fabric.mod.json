@@ -2,10 +2,13 @@
   "schemaVersion": 1,
   "id": "ggg",
   "version": "${version}",
-  "name": "Example mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Guts, Guns and Glory",
+  "description": "",
   "authors": [
-    "Me!"
+    "TheRebelT",
+    "chaottic",
+    "AzureDoom",
+    "RedstoneTim"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
