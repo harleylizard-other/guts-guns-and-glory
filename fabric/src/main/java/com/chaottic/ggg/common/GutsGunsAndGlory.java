@@ -20,6 +20,7 @@ public final class GutsGunsAndGlory implements ModInitializer {
         GutsGunsAndGloryBlocks.registerAll();
         GutsGunsAndGloryItems.registerAll();
         GutsGunsAndGloryEntityTypes.registerAll();
+        GutsGunsAndGloryBlockEntityTypes.registerAll();
 
         Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, CREATIVE_MODE_TAB, FabricItemGroup.builder()
                 .icon(GutsGunsAndGloryItems.BARBED_WIRE::getDefaultInstance)
@@ -27,6 +28,7 @@ public final class GutsGunsAndGlory implements ModInitializer {
                 .displayItems((itemDisplayParameters, output) -> {
                     output.accept(GutsGunsAndGloryItems.BARBED_WIRE);
                     output.accept(GutsGunsAndGloryItems.LANDMINE);
+                    output.accept(GutsGunsAndGloryItems.MUNITIONS_BOX);
                     output.accept(GutsGunsAndGloryItems.CROWBAR);
                     output.accept(GutsGunsAndGloryItems.HOLLOW_POINT_762_BULLET);
                     output.accept(GutsGunsAndGloryItems.HOLLOW_POINT_556_BULLET);

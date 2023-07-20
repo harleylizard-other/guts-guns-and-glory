@@ -1,5 +1,7 @@
 {
   "itemGroup.ggg": "Guts, Guns and Glory",
+  "block.ggg.barbed_wire": "Barbed Wire",
   "block.ggg.landmine": "Landmine",
+  "block.ggg.munitions_box": "Munitions Box",
   "item.ggg.crowbar": "Crowbar"
 }

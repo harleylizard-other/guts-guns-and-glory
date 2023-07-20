@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "ggg:item/landmine"
+		"layer0": "ggg:item/munitions_box"
 	}
 }

@@ -10,6 +10,7 @@ import net.minecraft.world.item.Tiers;
 public final class GutsGunsAndGloryItems {
     public static final Item BARBED_WIRE = new BlockItem(GutsGunsAndGloryBlocks.BARBED_WIRE, new Item.Properties());
     public static final Item LANDMINE = new BlockItem(GutsGunsAndGloryBlocks.LANDMINE, new Item.Properties());
+    public static final Item MUNITIONS_BOX = new BlockItem(GutsGunsAndGloryBlocks.MUNITIONS_BOX, new Item.Properties());
     public static final Item CROWBAR = new Item(new Item.Properties().defaultDurability(Tiers.IRON.getUses()));
 
     // Bullets, RIP naming conventions.
@@ -30,6 +31,7 @@ public final class GutsGunsAndGloryItems {
     public static void registerAll() {
         register("barbed_wire", BARBED_WIRE);
         register("landmine", LANDMINE);
+        register("munitions_box", MUNITIONS_BOX);
         register("crowbar", CROWBAR);
         register("hollow_point_762_bullet", HOLLOW_POINT_762_BULLET);
         register("hollow_point_556_bullet", HOLLOW_POINT_556_BULLET);
