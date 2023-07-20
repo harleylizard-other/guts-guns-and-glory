@@ -28,7 +28,16 @@ public final class GutsGunsAndGlory implements ModInitializer {
                     output.accept(GutsGunsAndGloryItems.BARBED_WIRE);
                     output.accept(GutsGunsAndGloryItems.LANDMINE);
                     output.accept(GutsGunsAndGloryItems.CROWBAR);
-                    output.accept(GutsGunsAndGloryItems.HOLLOW_POINT_BULLET);
+                    output.accept(GutsGunsAndGloryItems.HOLLOW_POINT_762_BULLET);
+                    output.accept(GutsGunsAndGloryItems.HOLLOW_POINT_556_BULLET);
+                    output.accept(GutsGunsAndGloryItems.HOLLOW_POINT_545_BULLET);
+                    output.accept(GutsGunsAndGloryItems.HOLLOW_POINT_338_LAPUA_BULLET);
+                    output.accept(GutsGunsAndGloryItems.HOLLOW_POINT_308_WINCHESTER_BULLET);
+                    output.accept(GutsGunsAndGloryItems.HOLLOW_POINT_9_BULLET);
+                    output.accept(GutsGunsAndGloryItems.HOLLOW_POINT_700_EXPRESS_BULLET);
+                    output.accept(GutsGunsAndGloryItems.HOLLOW_POINT_357_BULLET);
+                    output.accept(GutsGunsAndGloryItems.HOLLOW_POINT_45_ACP_BULLET);
+                    output.accept(GutsGunsAndGloryItems.HOLLOW_POINT_22_LR_BULLET);
                 }).build());
     }
 
