@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "embedded=false": {
+      "model": "ggg:block/landmine"
+    },
+    "embedded=true": {
+      "model": "ggg:block/landmine_embedded"
+    }
+  }
+}
