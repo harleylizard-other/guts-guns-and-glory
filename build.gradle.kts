@@ -20,6 +20,11 @@ tasks.test {
 
 subprojects {
     apply(plugin = "java")
+
+    repositories {
+        maven("https://dl.cloudsmith.io/public/azuredoom-mods/azurelib/maven/")
+        maven("https://maven.terraformersmc.com/releases/")
+    }
 }
 
 allprojects {

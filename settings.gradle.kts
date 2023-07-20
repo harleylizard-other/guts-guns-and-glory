@@ -8,3 +8,4 @@ pluginManagement {
 }
 rootProject.name = "guts-guns-and-glory"
 include("quilt")
+include("fabric")
