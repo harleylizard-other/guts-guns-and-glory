@@ -28,6 +28,7 @@ public final class GutsGunsAndGlory implements ModInitializer {
                     output.accept(GutsGunsAndGloryItems.BARBED_WIRE);
                     output.accept(GutsGunsAndGloryItems.LANDMINE);
                     output.accept(GutsGunsAndGloryItems.CROWBAR);
+                    output.accept(GutsGunsAndGloryItems.HOLLOW_POINT_BULLET);
                 }).build());
     }
 

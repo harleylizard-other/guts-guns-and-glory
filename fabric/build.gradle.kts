@@ -18,3 +18,11 @@ dependencies {
     modImplementation("net.fabricmc.fabric-api:fabric-api:0.85.0+1.20.1")
     modImplementation("mod.azure.azurelib:azurelib-fabric-1.20.1:1.0.19")
 }
+
+tasks.processResources {
+    inputs.property("version", project.version)
+
+    filesMatching("fabric.mod.json") {
+        expand("version" to project.version)
+    }
+}
