@@ -40,6 +40,7 @@ public final class GutsGunsAndGlory implements ModInitializer {
                     output.accept(GutsGunsAndGloryItems.HOLLOW_POINT_357_BULLET);
                     output.accept(GutsGunsAndGloryItems.HOLLOW_POINT_45_ACP_BULLET);
                     output.accept(GutsGunsAndGloryItems.HOLLOW_POINT_22_LR_BULLET);
+                    output.accept(GutsGunsAndGloryItems.SNUB_NOSE);
                 }).build());
     }
 

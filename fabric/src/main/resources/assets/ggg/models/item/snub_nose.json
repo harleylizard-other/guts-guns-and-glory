@@ -1,0 +1,104 @@
+{
+  "parent": "builtin/entity",
+  "textures": {
+    "particle": "block/soul_sand"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        -2.5,
+        0.25
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        -2.5,
+        0.25
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -1,
+        11
+      ],
+      "translation": [
+        -5,
+        -4,
+        -0.75
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        -1,
+        11
+      ],
+      "translation": [
+        -5,
+        -4,
+        -0.75
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        -4,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        -45,
+        2
+      ],
+      "translation": [
+        -1.75,
+        -4.5,
+        0
+      ]
+    },
+    "head": {
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "translation": [
+        7.25,
+        -23.75,
+        6
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        1,
+        -4.5,
+        0
+      ]
+    }
+  }
+}

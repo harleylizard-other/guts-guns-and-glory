@@ -1,0 +1,91 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 3, 2],
+					"cubes": [
+						{"origin": [-0.5, 3.75, -3], "size": [1, 4, 5], "inflate": 0.015, "uv": [0, 4]},
+						{"origin": [-0.515, 7.26611, -1.90871], "size": [1, 1, 1], "pivot": [-0.015, 0.01611, -0.05871], "rotation": [15, 0, 0], "uv": [0, 3]},
+						{"origin": [-0.5, 4.4, -2], "size": [1, 2, 1], "pivot": [0, 0, 0], "rotation": [15, 0, 0], "uv": [0, 0]},
+						{"origin": [-0.5, 5.4, 0.05], "size": [1, 1, 2], "inflate": 0.01, "pivot": [0, 0, 0], "rotation": [-15, 0, 0], "uv": [24, 0]},
+						{"origin": [-0.5, 2, -2], "size": [1, 2, 0], "uv": [39, 0]},
+						{"origin": [-0.5, 2, 1], "size": [1, 2, 0], "uv": [39, 0]},
+						{"origin": [-0.5, 2, -2], "size": [1, 0, 3], "uv": [34, 0]},
+						{"origin": [0, 7.35, -7], "size": [0, 1, 2], "uv": [33, 1]}
+					]
+				},
+				{
+					"name": "grip",
+					"parent": "body",
+					"pivot": [0, 0, 0],
+					"rotation": [15, 0, 0],
+					"cubes": [
+						{"origin": [-1, -1, 2.5], "size": [2, 5, 2], "uv": [22, 3]},
+						{"origin": [-0.5, -1.5, 2], "size": [1, 6, 3], "uv": [22, 10]}
+					]
+				},
+				{
+					"name": "clip",
+					"parent": "grip",
+					"pivot": [0, 5, 2]
+				},
+				{
+					"name": "trigger",
+					"parent": "body",
+					"pivot": [0, 4.25, 0],
+					"rotation": [-27.5, 0, 0],
+					"cubes": [
+						{"origin": [-0.5, 2.25, -0.5], "size": [1, 2, 1], "inflate": -0.01, "uv": [33, 0]}
+					]
+				},
+				{
+					"name": "hammer",
+					"parent": "body",
+					"pivot": [0, 5.75, 2.25],
+					"cubes": [
+						{"origin": [0, 4.25, 2], "size": [0, 2, 2], "pivot": [0, 5.75, 2.25], "rotation": [105, 0, 0], "uv": [22, -2]}
+					]
+				},
+				{
+					"name": "slide",
+					"parent": "body",
+					"pivot": [0, 6, -3]
+				},
+				{
+					"name": "muzzleflash",
+					"parent": "body",
+					"pivot": [0, 6.75, -7.15]
+				},
+				{
+					"name": "barrels",
+					"parent": "body",
+					"pivot": [0, 5.7, 0],
+					"cubes": [
+						{"origin": [-1.25, 5.95, -7], "size": [1, 1, 4], "pivot": [0, 5.7, 0], "rotation": [0, 0, 45], "uv": [7, 0]},
+						{"origin": [-1.25, 5.95, -6.8], "size": [1, 1, 3], "inflate": -0.01, "pivot": [0, 5.7, 0], "rotation": [0, 0, 45], "uv": [8, 5]},
+						{"origin": [-0.5, 5.2, -5], "size": [1, 1, 2], "pivot": [0, 5.7, 0], "rotation": [0, 0, 45], "uv": [5, 1]}
+					]
+				},
+				{
+					"name": "cylinder",
+					"parent": "body",
+					"pivot": [0, 5.7, 0],
+					"cubes": [
+						{"origin": [-1.5, 4.2, -2.5], "size": [3, 3, 3], "inflate": -0.04, "pivot": [0, 5.7, 0], "rotation": [0, 0, 45], "uv": [0, 13]}
+					]
+				}
+			]
+		}
+	]
+}

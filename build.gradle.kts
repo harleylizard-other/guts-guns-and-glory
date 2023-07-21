@@ -1,9 +1,9 @@
 plugins {
     id("java")
+    id("io.freefair.lombok") version "8.1.0"
 }
 
 group = "com.chaottic"
-version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
@@ -20,6 +20,7 @@ tasks.test {
 
 subprojects {
     apply(plugin = "java")
+    apply(plugin = "io.freefair.lombok")
 
     repositories {
         maven("https://dl.cloudsmith.io/public/azuredoom-mods/azurelib/maven/")
@@ -28,6 +29,8 @@ subprojects {
 }
 
 allprojects {
+    version = "1.0-SNAPSHOT"
+
     java {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
