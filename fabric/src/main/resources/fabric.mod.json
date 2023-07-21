@@ -43,6 +43,9 @@
   "custom": {
     "cardinal-components": [
       "ggg:attachments"
-    ]
+    ],
+    "loom:injected_interfaces": {
+      "net/minecraft/class_238": ["com/chaottic/ggg/common/GutsGunsAndGloryAABB"]
+    }
   }
 }
