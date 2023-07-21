@@ -1,7 +1,7 @@
 package com.chaottic.ggg.common;
 
 import com.chaottic.ggg.common.item.BulletItem;
-import com.chaottic.ggg.common.item.gun.SnubNoseItem;
+import com.chaottic.ggg.common.item.gun.*;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.BlockItem;
@@ -27,7 +27,13 @@ public final class GutsGunsAndGloryItems {
     public static final Item HOLLOW_POINT_22_LR_BULLET = new BulletItem(GutsGunsAndGloryBulletTypes.HOLLOW_POINT, new Item.Properties());
 
     // Guns.
+    public static final Item AUTOMATIC_22 = new Automatic22Item(new Item.Properties());
+    public static final Item CARLTON_9 = new Carlton9Item(new Item.Properties());
+    public static final Item GOBLIN = new GoblinItem(new Item.Properties());
+    public static final Item HAWK = new HawkItem(new Item.Properties());
+    public static final Item MARKOV = new MarkovItem(new Item.Properties());
     public static final Item SNUB_NOSE = new SnubNoseItem(new Item.Properties());
+    public static final Item STALLION_CO = new StallionCoItem(new Item.Properties());
 
 
     private GutsGunsAndGloryItems() {}
@@ -47,7 +53,13 @@ public final class GutsGunsAndGloryItems {
         register("hollow_point_357_bullet", HOLLOW_POINT_357_BULLET);
         register("hollow_point_45_bullet", HOLLOW_POINT_45_ACP_BULLET);
         register("hollow_point_22_lr_bullet", HOLLOW_POINT_22_LR_BULLET);
+        register("automatic_22", AUTOMATIC_22);
+        register("carlton_9", CARLTON_9);
+        register("goblin", GOBLIN);
+        register("hawk", HAWK);
+        register("markov", MARKOV);
         register("snub_nose", SNUB_NOSE);
+        register("stallion_co", STALLION_CO);
     }
 
     private static void register(String name, Item item) {

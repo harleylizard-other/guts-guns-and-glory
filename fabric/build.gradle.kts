@@ -17,6 +17,9 @@ dependencies {
     modImplementation("net.fabricmc:fabric-loader:0.14.21")
     modImplementation("net.fabricmc.fabric-api:fabric-api:0.85.0+1.20.1")
     modImplementation("mod.azure.azurelib:azurelib-fabric-1.20.1:1.0.19")
+
+    modImplementation("dev.onyxstudios.cardinal-components-api:cardinal-components-base:5.2.1")
+    modImplementation("dev.onyxstudios.cardinal-components-api:cardinal-components-item:5.2.1")
 }
 
 tasks.processResources {

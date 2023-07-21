@@ -25,6 +25,7 @@ subprojects {
     repositories {
         maven("https://dl.cloudsmith.io/public/azuredoom-mods/azurelib/maven/")
         maven("https://maven.terraformersmc.com/releases/")
+        maven("https://maven.ladysnake.org/releases")
     }
 }
 

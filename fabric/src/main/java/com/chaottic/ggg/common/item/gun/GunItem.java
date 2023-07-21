@@ -8,7 +8,7 @@ import net.minecraft.world.item.Item;
 
 import java.util.function.Supplier;
 
-public sealed abstract class GunItem extends Item implements GeoItem permits SnubNoseItem {
+public sealed abstract class GunItem extends Item implements GeoItem permits Automatic22Item, Carlton9Item, GoblinItem, HawkItem, MarkovItem, SnubNoseItem, StallionCoItem {
     private final AnimatableInstanceCache cache = AzureLibUtil.createInstanceCache(this);
     private final Supplier<Object> supplier = GeoItem.makeRenderer(this);
 

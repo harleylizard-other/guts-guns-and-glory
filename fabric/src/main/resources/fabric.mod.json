@@ -23,6 +23,9 @@
     ],
     "client": [
       "com.chaottic.ggg.client.GutsGunsAndGloryClient"
+    ],
+    "cardinal-components": [
+      "com.chaottic.ggg.common.GutsGunsAndGloryComponents"
     ]
   },
   "mixins": [
@@ -36,5 +39,10 @@
   },
   "suggests": {
     "another-mod": "*"
+  },
+  "custom": {
+    "cardinal-components": [
+      "ggg:attachments"
+    ]
   }
 }
