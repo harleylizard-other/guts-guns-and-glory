@@ -51,7 +51,7 @@ public final class GutsGunsAndGloryItems {
         register("hollow_point_9_bullet", HOLLOW_POINT_9_BULLET);
         register("hollow_point_700_express_bullet", HOLLOW_POINT_700_EXPRESS_BULLET);
         register("hollow_point_357_bullet", HOLLOW_POINT_357_BULLET);
-        register("hollow_point_45_bullet", HOLLOW_POINT_45_ACP_BULLET);
+        register("hollow_point_45_acp_bullet", HOLLOW_POINT_45_ACP_BULLET);
         register("hollow_point_22_lr_bullet", HOLLOW_POINT_22_LR_BULLET);
         register("automatic_22", AUTOMATIC_22);
         register("carlton_9", CARLTON_9);

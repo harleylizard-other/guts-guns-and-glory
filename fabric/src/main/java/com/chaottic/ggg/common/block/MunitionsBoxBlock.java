@@ -23,7 +23,7 @@ import java.util.Map;
 public final class MunitionsBoxBlock extends HorizontalDirectionalBlock implements EntityBlock {
     private static final Map<Direction, VoxelShape> DIRECTION_TO_SHAPE = new HashMap<>(4);
 
-    private static final VoxelShape SHAPE = box(3, 0, 0, 13, 13, 16);
+    private static final VoxelShape SHAPE = box(0.009999999999999787, 0.01, 3.51, 15.99, 11.99, 12.49);
 
     public MunitionsBoxBlock(Properties properties) {
         super(properties);

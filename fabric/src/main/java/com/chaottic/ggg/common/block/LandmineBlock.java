@@ -56,7 +56,7 @@ public final class LandmineBlock extends Block {
     public void entityInside(BlockState blockState, Level level, BlockPos blockPos, Entity entity) {
         if (isEmbedded(blockState)) {
             // Keep destruction to C4.
-            level.explode(null, blockPos.getX() + 0.5F, blockPos.getY(), blockPos.getZ() + 0.5F, 5.0F, Level.ExplosionInteraction.NONE);
+            level.explode(null, blockPos.getX() + 0.5F, blockPos.getY(), blockPos.getZ() + 0.5F, 7.0F, Level.ExplosionInteraction.NONE);
             level.removeBlock(blockPos, false);
         }
     }
